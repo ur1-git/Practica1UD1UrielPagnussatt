@@ -6,21 +6,21 @@ import javax.swing.*;
 
 public class CatalogView {
     private JPanel mainPanel;
-    private JTextField titleField;
-    private JTextField priceField;
-    private JTextField ratingField;
-    private JTextField durationField;
-    private JTextField seasonsField;
-    private JTextField episodesField;
-    private JRadioButton movieButton;
-    private JRadioButton seriesButton;
-    private JTextArea synopsisArea;
-    private DatePicker releaseDatePicker;
-    private JComboBox contentComboBox;
-    private JButton newButton;
-    private JButton importButton;
-    private JButton exportButton;
-    private JButton closeButton;
+    public JTextField titleField;
+    public JTextField priceField;
+    public JTextField ratingField;
+    public JTextField durationField;
+    public JTextField seasonsField;
+    public JTextField episodesField;
+    public JRadioButton movieButton;
+    public JRadioButton seriesButton;
+    public JTextArea synopsisArea;
+    public DatePicker releaseDatePicker;
+    public JComboBox contentComboBox;
+    public JButton newButton;
+    public JButton importButton;
+    public JButton exportButton;
+    public JButton closeButton;
 
     public JFrame frame;
 
